@@ -1,5 +1,4 @@
-import classes from "./NewSession.module.css";
-import { addCOdata, getUsers,getCOdata } from "../api/api";
+import { getUsers,getCOdata } from "../api/api";
 import StudentCODisplay from "./StudentCODisplay";
 import {
   Box,
@@ -14,7 +13,6 @@ import { useNavigate } from "react-router-dom";
 const NewSession = () => {
   const [value, setValue] = useState([]);
   const [COvalue, setCOValue] = useState([]);
-  // const [toggle, setToggle] = useState(false);
 
   const courseCodeReducer = useSelector((state) => state.varify.courseCode);
   const yearReducer = useSelector((state) => state.varify.year);

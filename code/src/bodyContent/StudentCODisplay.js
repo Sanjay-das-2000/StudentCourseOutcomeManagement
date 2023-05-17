@@ -1,7 +1,6 @@
 import { Box, Button, Flex, HStack, Text } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import { deleteUser } from "../api/api";
-// import classes from "./StudentCODisplay.module.css";
 
 const StudentCODisplay = (props) => {
 

@@ -1,5 +1,5 @@
 import classes from "./NewSession.module.css";
-import { addCOdata, getUsers,getCOdata } from "../api/api";
+import { addCOdata } from "../api/api";
 
 import {
     Box,
@@ -127,8 +127,6 @@ const StudentForm = () => {
             <Input ref={name} borderColor={"gray"} type={"text"}></Input>
             <FormLabel>Roll No</FormLabel>
             <Input ref={rollno} borderColor={"gray"} type={"text"}></Input>
-            {/* <FormLabel>Course Code</FormLabel>
-            <Input ref={CourseCode} borderColor={"gray"} type={"text"}></Input> */}
             <Flex direction={"column"}>
               <FormLabel>Test1</FormLabel>
               <HStack>
@@ -263,8 +261,7 @@ const StudentForm = () => {
                   ></Input>
               </HStack>
             </Flex>
-            {/* <FormLabel>Session</FormLabel>
-            <Input ref={Session} borderColor={"gray"} type={"text"}></Input> */}
+
             <Button
               mt={"2%"}
               colorScheme="teal"
