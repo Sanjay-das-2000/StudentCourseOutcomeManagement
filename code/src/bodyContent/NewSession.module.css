@@ -1,0 +1,11 @@
+.newsessionbox{
+    position: relative;
+    top: 5%;
+    padding: 3%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.newsessioninput{
+    border-color: gray;
+}
